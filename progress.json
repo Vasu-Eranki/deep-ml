@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-14T23:59:44.439Z",
+  "generated_at": "2026-10-14T23:59:58.365Z",
   "items": {
     "problem:134": {
       "kind": "problem",
@@ -13,6 +13,58 @@
       "last_pushed_at": "2026-10-14T23:59:43.731Z",
       "language": "python",
       "lines": 9
+    },
+    "problem:22": {
+      "kind": "problem",
+      "id": "22",
+      "title": "Sigmoid Activation Function Understanding",
+      "difficulty": "easy",
+      "category": "Deep Learning",
+      "url": "https://www.deep-ml.com/problems/22",
+      "path": "problems/0022-sigmoid-activation-function-understanding",
+      "first_solved_at": "2026-10-14T19:51:19.658Z",
+      "last_pushed_at": "2026-10-14T19:51:19.658Z",
+      "language": "python",
+      "lines": 7
+    },
+    "problem:23": {
+      "kind": "problem",
+      "id": "23",
+      "title": "Softmax Activation Function Implementation ",
+      "difficulty": "easy",
+      "category": "Deep Learning",
+      "url": "https://www.deep-ml.com/problems/23",
+      "path": "problems/0023-softmax-activation-function-implementation",
+      "first_solved_at": "2026-10-14T22:40:06.069Z",
+      "last_pushed_at": "2026-10-14T22:40:06.069Z",
+      "language": "python",
+      "lines": 9
+    },
+    "problem:42": {
+      "kind": "problem",
+      "id": "42",
+      "title": "Implement ReLU Activation Function",
+      "difficulty": "easy",
+      "category": "Deep Learning",
+      "url": "https://www.deep-ml.com/problems/42",
+      "path": "problems/0042-implement-relu-activation-function",
+      "first_solved_at": "2026-10-14T23:00:58.613Z",
+      "last_pushed_at": "2026-10-14T23:00:58.613Z",
+      "language": "python",
+      "lines": 4
+    },
+    "problem:263": {
+      "kind": "problem",
+      "id": "263",
+      "title": "Implement Binary Cross-Entropy Loss",
+      "difficulty": "easy",
+      "category": "Deep Learning",
+      "url": "https://www.deep-ml.com/problems/263",
+      "path": "problems/0263-implement-binary-cross-entropy-loss",
+      "first_solved_at": "2026-10-14T23:20:38.229Z",
+      "last_pushed_at": "2026-10-14T23:20:38.229Z",
+      "language": "python",
+      "lines": 26
     }
   }
 }
