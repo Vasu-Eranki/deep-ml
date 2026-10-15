@@ -10,8 +10,9 @@ def train_neuron(features: np.ndarray, labels: np.ndarray, initial_weights: np.n
 		error = (output-labels)
 		mse = np.mean(error**2)
 		mse_values.append(round(mse,4))
-		derivative_wrt_weight =	np.sum(2*error*output*(1-output)*features.T,axis=1)/len(features)
-		derivative_wrt_bias = np.sum(2*error*output*(1-output))/len(features)
+		derivative = 2*error*output*(1-output)/len(features)
+		derivative_wrt_weight =	np.sum(derivative*features.T,axis=1)
+		derivative_wrt_bias = np.sum(derivative)
 		updated_weights = initial_weights - learning_rate*derivative_wrt_weight
 		updated_bias = initial_bias - learning_rate*derivative_wrt_bias
 		initial_weights = updated_weights
