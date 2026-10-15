@@ -21,7 +21,7 @@ def linear_regression_gradient_descent(X: np.ndarray, y: np.ndarray, alpha: floa
     for _ in range(iterations):
         predictions = np.matmul(X, theta)
         dL_dhO = (predictions-y)/m
-        dh0_d0 = X.T
-        dL_d0 = np.matmul(dL_dhO.T, dh0_d0.T).T
+        dh0_d0 = X
+        dL_d0 = np.matmul(dh0_d0.T,dL_dhO)
         theta = theta - alpha* dL_d0
     return theta.flatten()
