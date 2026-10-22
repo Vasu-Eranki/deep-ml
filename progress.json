@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22T22:16:30.913Z",
+  "generated_at": "2026-10-22T22:27:48.523Z",
   "items": {
     "problem:134": {
       "kind": "problem",
@@ -36,9 +36,9 @@
       "url": "https://www.deep-ml.com/problems/23",
       "path": "problems/0023-softmax-activation-function-implementation",
       "first_solved_at": "2026-10-14T22:40:06.069Z",
-      "last_pushed_at": "2026-10-14T22:40:06.069Z",
+      "last_pushed_at": "2026-10-22T22:27:47.969Z",
       "language": "python",
-      "lines": 9
+      "lines": 8
     },
     "problem:42": {
       "kind": "problem",
