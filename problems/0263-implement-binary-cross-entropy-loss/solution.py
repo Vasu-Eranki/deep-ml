@@ -1,11 +1,8 @@
 import math
-def bce_for_a_single_sample(y:float,p:float,epsilon)->float:
+def bce_for_a_single_sample(y:int,p:float,epsilon)->float:
 	# y*log(p)+(1-y)*log(1-p)
 	return y*math.log(p) + (1-y)*math.log(1-p)
 	
-
-
-
 def binary_cross_entropy(y_true: list[float], y_pred: list[float], epsilon: float = 1e-15) -> float:
 	"""
 	Compute binary cross-entropy loss.
