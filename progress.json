@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23T22:22:43.661Z",
+  "generated_at": "2026-10-23T22:23:19.494Z",
   "items": {
     "problem:134": {
       "kind": "problem",
@@ -218,7 +218,7 @@
       "url": "https://www.deep-ml.com/problems/372",
       "path": "problems/0372-implement-rmsnorm-root-mean-square-layer-normalization",
       "first_solved_at": "2026-10-23T22:22:43.037Z",
-      "last_pushed_at": "2026-10-23T22:22:43.037Z",
+      "last_pushed_at": "2026-10-23T22:23:18.880Z",
       "language": "python",
       "lines": 21
     }
