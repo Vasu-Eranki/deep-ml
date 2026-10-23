@@ -2,7 +2,7 @@
 
 My machine learning practice from [Deep-ML](https://www.deep-ml.com). Every solution here was written by hand.
 
-**15** solved · 15 problems · 0 labs · 0 math
+**16** solved · 16 problems · 0 labs · 0 math
 
 ![Coverage](./coverage.svg)
 
@@ -15,6 +15,7 @@ My machine learning practice from [Deep-ML](https://www.deep-ml.com). Every solu
 | [Binary Classification with Logistic Regression](https://www.deep-ml.com/problems/104) | easy | 2026-10-15 | [solution](problems/0104-binary-classification-with-logistic-regression) |
 | [Compute Multi-class Cross-Entropy Loss](https://www.deep-ml.com/problems/134) | easy | 2026-10-14 | [solution](problems/0134-compute-multi-class-cross-entropy-loss) |
 | [Implement Binary Cross-Entropy Loss](https://www.deep-ml.com/problems/263) | easy | 2026-10-14 | [solution](problems/0263-implement-binary-cross-entropy-loss) |
+| [Implement LayerNorm from Scratch](https://www.deep-ml.com/problems/908) | easy | 2026-10-23 | [solution](problems/0908-implement-layernorm-from-scratch) |
 | [Implement ReLU Activation Function](https://www.deep-ml.com/problems/42) | easy | 2026-10-14 | [solution](problems/0042-implement-relu-activation-function) |
 | [Implement the Tanh Activation Function](https://www.deep-ml.com/problems/264) | easy | 2026-10-15 | [solution](problems/0264-implement-the-tanh-activation-function) |
 | [Linear Regression Using Gradient Descent](https://www.deep-ml.com/problems/15) | easy | 2026-10-15 | [solution](problems/0015-linear-regression-using-gradient-descent) |
