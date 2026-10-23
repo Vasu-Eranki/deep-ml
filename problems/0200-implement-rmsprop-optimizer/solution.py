@@ -17,5 +17,5 @@ def rmsprop_update(params: list[float], grads: list[float], cache: list[float],
 	# Your code here
 	cache = [beta*i+(1-beta)*(j**2) for i,j in zip(cache,grads)]
 	denominator = [(i)**0.5+epsilon for i in cache]
-	params = [k-i*(lr/j) for i,j,k in zip(grads,denominator,params)]
+	params = [k-i*lr/j for i,j,k in zip(grads,denominator,params)]
 	return (params,cache)
