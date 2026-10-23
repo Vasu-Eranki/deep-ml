@@ -17,7 +17,8 @@ def xavier_initialization(shape: tuple, mode: str = 'uniform', seed: int = None)
     np.random.seed(seed)
     if(mode=="uniform"):
         limit = (6/(fan_in+fan_out))**0.5
-        return np.random.uniform(-limit, limit, shape)
+        initialization = np.random.uniform(-limit, limit, shape)
     else:
         variance = (2/(fan_in+fan_out))**0.5
-        return np.random.normal(0,variance,shape)
+        initialization= np.random.normal(0,variance,shape)
+    return initialization
