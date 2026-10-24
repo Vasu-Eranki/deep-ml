@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-24T19:11:16.367Z",
+  "generated_at": "2026-10-24T19:18:14.494Z",
   "items": {
     "problem:134": {
       "kind": "problem",
@@ -283,7 +283,7 @@
       "url": "https://www.deep-ml.com/problems/965",
       "path": "problems/0965-construct-causal-attention-mask-via-tril-and-triu-methods",
       "first_solved_at": "2026-10-24T19:11:15.467Z",
-      "last_pushed_at": "2026-10-24T19:11:15.467Z",
+      "last_pushed_at": "2026-10-24T19:18:13.927Z",
       "language": "python",
       "lines": 19
     }
