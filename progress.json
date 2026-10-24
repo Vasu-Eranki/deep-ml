@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-24T18:41:40.847Z",
+  "generated_at": "2026-10-24T18:46:43.523Z",
   "items": {
     "problem:134": {
       "kind": "problem",
@@ -270,9 +270,9 @@
       "url": "https://www.deep-ml.com/problems/490",
       "path": "problems/0490-build-scaled-dot-product-attention",
       "first_solved_at": "2026-10-24T18:40:53.483Z",
-      "last_pushed_at": "2026-10-24T18:41:40.279Z",
+      "last_pushed_at": "2026-10-24T18:46:42.982Z",
       "language": "python",
-      "lines": 26
+      "lines": 25
     }
   }
 }
