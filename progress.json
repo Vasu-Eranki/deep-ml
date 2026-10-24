@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-24T02:30:11.249Z",
+  "generated_at": "2026-10-24T18:40:54.081Z",
   "items": {
     "problem:134": {
       "kind": "problem",
@@ -260,6 +260,19 @@
       "last_pushed_at": "2026-10-24T02:30:10.626Z",
       "language": "python",
       "lines": 32
+    },
+    "problem:490": {
+      "kind": "problem",
+      "id": "490",
+      "title": "Build Scaled Dot-Product Attention",
+      "difficulty": "medium",
+      "category": "Deep Learning",
+      "url": "https://www.deep-ml.com/problems/490",
+      "path": "problems/0490-build-scaled-dot-product-attention",
+      "first_solved_at": "2026-10-24T18:40:53.483Z",
+      "last_pushed_at": "2026-10-24T18:40:53.483Z",
+      "language": "python",
+      "lines": 26
     }
   }
 }
