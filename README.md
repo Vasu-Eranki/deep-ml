@@ -2,7 +2,7 @@
 
 My machine learning practice from [Deep-ML](https://www.deep-ml.com). Every solution here was written by hand.
 
-**18** solved · 18 problems · 0 labs · 0 math
+**19** solved · 19 problems · 0 labs · 0 math
 
 ![Coverage](./coverage.svg)
 
@@ -15,6 +15,7 @@ My machine learning practice from [Deep-ML](https://www.deep-ml.com). Every solu
 | [Binary Classification with Logistic Regression](https://www.deep-ml.com/problems/104) | easy | 2026-10-15 | [solution](problems/0104-binary-classification-with-logistic-regression) |
 | [Compute Multi-class Cross-Entropy Loss](https://www.deep-ml.com/problems/134) | easy | 2026-10-14 | [solution](problems/0134-compute-multi-class-cross-entropy-loss) |
 | [Implement Binary Cross-Entropy Loss](https://www.deep-ml.com/problems/263) | easy | 2026-10-14 | [solution](problems/0263-implement-binary-cross-entropy-loss) |
+| [Implement He Weight Initialization](https://www.deep-ml.com/problems/290) | easy | 2026-10-24 | [solution](problems/0290-implement-he-weight-initialization) |
 | [Implement LayerNorm from Scratch](https://www.deep-ml.com/problems/908) | easy | 2026-10-23 | [solution](problems/0908-implement-layernorm-from-scratch) |
 | [Implement ReLU Activation Function](https://www.deep-ml.com/problems/42) | easy | 2026-10-14 | [solution](problems/0042-implement-relu-activation-function) |
 | [Implement RMSNorm (Root Mean Square Layer Normalization)](https://www.deep-ml.com/problems/372) | easy | 2026-10-23 | [solution](problems/0372-implement-rmsnorm-root-mean-square-layer-normalization) |
