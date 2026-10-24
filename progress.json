@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-24T18:48:19.768Z",
+  "generated_at": "2026-10-24T19:11:16.367Z",
   "items": {
     "problem:134": {
       "kind": "problem",
@@ -273,6 +273,19 @@
       "last_pushed_at": "2026-10-24T18:48:19.110Z",
       "language": "python",
       "lines": 25
+    },
+    "problem:965": {
+      "kind": "problem",
+      "id": "965",
+      "title": "Construct Causal Attention Mask via tril and triu Methods",
+      "difficulty": "easy",
+      "category": "Deep Learning",
+      "url": "https://www.deep-ml.com/problems/965",
+      "path": "problems/0965-construct-causal-attention-mask-via-tril-and-triu-methods",
+      "first_solved_at": "2026-10-24T19:11:15.467Z",
+      "last_pushed_at": "2026-10-24T19:11:15.467Z",
+      "language": "python",
+      "lines": 19
     }
   }
 }
