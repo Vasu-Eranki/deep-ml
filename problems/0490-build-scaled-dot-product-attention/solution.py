@@ -19,8 +19,8 @@ def scaled_dot_product_attention(Q: np.ndarray, K: np.ndarray, V: np.ndarray, ma
 	normalised_scores = attention_scores/(d_k)**0.5
 	if mask is not None:
 		normalised_scores = np.where(mask==1,normalised_scores,-np.inf)
-	maximum_per_row =np.max(normalised_scores, axis=-1,keepdims=True)
+	maximum_per_row =np.max(normalised_scores, axis=1,keepdims=True)
 	stable_softmax_scores = np.exp(normalised_scores-maximum_per_row)
-	attention_weights = stable_softmax_scores/np.sum(stable_softmax_scores,axis=-1,keepdims=True)
+	attention_weights = stable_softmax_scores/np.sum(stable_softmax_scores,axis=1,keepdims=True)
 	output = np.matmul(attention_weights, V)
 	return output,attention_weights
