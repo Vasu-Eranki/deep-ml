@@ -14,7 +14,7 @@ def scaled_dot_product_attention(Q: np.ndarray, K: np.ndarray, V: np.ndarray, ma
 		Tuple of (output, attention_weights)
 	"""
 	# Your code here
-	_d_k = Q.shape
+	d_k = Q.shape[-1]
 	raw_scaled_scores = np.matmul(Q, K.T)/(d_k)**0.5
 	if mask is not None:
 		raw_scaled_scores = np.where(mask==1,raw_scaled_scores,-np.inf)
