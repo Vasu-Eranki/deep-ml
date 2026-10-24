@@ -3,9 +3,7 @@ import numpy as np
 def causal_mask_attention(attn_weights: np.ndarray, method: str = 'tril') -> list:
     """Apply causal masking two ways and return the resulting attention matrix as a nested list."""
     if "tril":
-        ones_matrix = np.ones_like(attn_weights)
-        lower_triangular_matrix = np.tril(ones_matrix,k=0)
-        attention_weights = attn_weights*lower_triangular_matrix
+        attention_weights = np.tril(attn_weights,k=0)
         attention_weights = attention_weights/np.sum(attention_weights,axis=-1,keepdims=True)
         return attention_weights
     else:
