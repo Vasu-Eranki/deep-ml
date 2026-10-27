@@ -20,7 +20,7 @@ def temperature_sampling(logits: np.ndarray, temperature: float) -> list:
 		scaled_logits = logits/temperature
 		return softmax(scaled_logits)
 	else:
-		maximum_value_idx = np.argmax(logits)
+		maximum_value_idx = np.argmax(logits,axis=-1)
 		scores = np.zeros_like(logits)
 		scores[maximum_value_idx]=1.0
 		return scores
