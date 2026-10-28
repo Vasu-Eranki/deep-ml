@@ -20,19 +20,20 @@ def kv_cache_attention_step(x_new: np.ndarray, W_Q: np.ndarray, W_K: np.ndarray,
     q = np.matmul(x_new,W_Q)
     k = np.matmul(x_new,W_K)
     v = np.matmul(x_new,W_V)
+    K = V = None
     if not cache:
-        cache = (k,v)
         K = k
         V = v 
     else:
         K,V = cache 
         K = np.vstack([K,k])
         V = np.vstack([V,v])
-        cache = (K,V)
-    attention_scores = np.matmul(q, K.T)/(d_k)**0.5
-    maximum_values = np.max(attention_scores, axis=-1,keepdims=True)
-    softmax_scores = np.exp(attention_scores-maximum_values)
-    softmax_scores = softmax_scores/np.sum(softmax_scores,axis=-1,keepdims=True)
+    cache = (K,V)
+
+    scores = np.matmul(q, K.T)/(d_k)**0.5
+    maximum_values = np.max(scores, axis=-1,keepdims=True)
+    exponentiated_scores = np.exp(scores-maximum_values)
+    softmax_scores = exponentiated_scores/np.sum(exponentiated_scores,axis=-1,keepdims=True)
     output = np.matmul(softmax_scores, V)
     return output.squeeze(),cache
         
