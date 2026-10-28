@@ -2,7 +2,7 @@
 
 My machine learning practice from [Deep-ML](https://www.deep-ml.com). Every solution here was written by hand.
 
-**26** solved · 26 problems · 0 labs · 0 math
+**27** solved · 27 problems · 0 labs · 0 math
 
 ![Coverage](./coverage.svg)
 
@@ -32,6 +32,7 @@ My machine learning practice from [Deep-ML](https://www.deep-ml.com). Every solu
 | [Adam Optimizer](https://www.deep-ml.com/problems/87) | medium | 2026-10-23 | [solution](problems/0087-adam-optimizer) |
 | [Build Scaled Dot-Product Attention](https://www.deep-ml.com/problems/490) | medium | 2026-10-24 | [solution](problems/0490-build-scaled-dot-product-attention) |
 | [Dropout Layer](https://www.deep-ml.com/problems/151) | medium | 2026-10-24 | [solution](problems/0151-dropout-layer) |
+| [Gradient Accumulation Over Micro-Batches](https://www.deep-ml.com/problems/912) | medium | 2026-10-28 | [solution](problems/0912-gradient-accumulation-over-micro-batches) |
 | [Implement RMSProp Optimizer](https://www.deep-ml.com/problems/200) | medium | 2026-10-15 | [solution](problems/0200-implement-rmsprop-optimizer) |
 | [Implement Xavier/Glorot Weight Initialization](https://www.deep-ml.com/problems/289) | medium | 2026-10-23 | [solution](problems/0289-implement-xavier-glorot-weight-initialization) |
 | [Single Neuron with Backpropagation](https://www.deep-ml.com/problems/25) | medium | 2026-10-15 | [solution](problems/0025-single-neuron-with-backpropagation) |
