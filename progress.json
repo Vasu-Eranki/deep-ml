@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28T22:22:55.454Z",
+  "generated_at": "2026-10-28T22:23:20.836Z",
   "items": {
     "problem:134": {
       "kind": "problem",
@@ -374,9 +374,9 @@
       "url": "https://www.deep-ml.com/problems/390",
       "path": "problems/0390-implement-multiquery-attention-mqa",
       "first_solved_at": "2026-10-28T22:22:54.809Z",
-      "last_pushed_at": "2026-10-28T22:22:54.809Z",
+      "last_pushed_at": "2026-10-28T22:23:20.274Z",
       "language": "python",
-      "lines": 35
+      "lines": 36
     }
   }
 }
