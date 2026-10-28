@@ -32,5 +32,4 @@ def multiquery_attention(X: np.ndarray, W_queries: list, W_key: np.ndarray, W_va
             cache = attention_o
         else:
             cache = np.hstack([cache,attention_o])
-            print(cache.shape,attention_o.shape)
     return np.matmul(cache,W_out)
