@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28T20:20:42.483Z",
+  "generated_at": "2026-10-28T20:22:49.035Z",
   "items": {
     "problem:134": {
       "kind": "problem",
@@ -348,9 +348,9 @@
       "url": "https://www.deep-ml.com/problems/912",
       "path": "problems/0912-gradient-accumulation-over-micro-batches",
       "first_solved_at": "2026-10-28T20:20:41.752Z",
-      "last_pushed_at": "2026-10-28T20:20:41.752Z",
+      "last_pushed_at": "2026-10-28T20:22:48.286Z",
       "language": "python",
-      "lines": 17
+      "lines": 16
     }
   }
 }
