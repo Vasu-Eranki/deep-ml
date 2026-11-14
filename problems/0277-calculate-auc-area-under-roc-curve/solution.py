@@ -25,7 +25,7 @@ def calculate_auc(y_true, y_scores):
     """
     fpr = []
     tpr = []
-    thresholds = [i/10 for i in range(0,10)]
+    thresholds = [i/10 for i in range(0,11)]
     y_scores_np = np.array(y_scores)
     y_true_np = np.array(y_true)
     for thresh in thresholds:
@@ -40,6 +40,6 @@ def calculate_auc(y_true, y_scores):
         tpr_i1 = tpr[index-1]
         fpr_i = fpr[index]
         fpr_i1 = fpr[index-1]
-        value = (fpr_i1-fpr_i)*(tpr_i+tpr_i1)/2
+        value = (fpr_i-fpr_i1)*(tpr_i+tpr_i1)/2
         auc_values.append(value)
-    return sum(auc_values)
+    return -sum(auc_values)
