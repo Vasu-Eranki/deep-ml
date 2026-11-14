@@ -1,4 +1,7 @@
 import numpy as np
+def mean_squared_error(y_pred,y_true):
+    return (y_pred-y_true)
+
 
 def linear_regression_gradient_descent(X: np.ndarray, y: np.ndarray, alpha: float, iterations: int) -> np.ndarray:
     """
@@ -19,9 +22,8 @@ def linear_regression_gradient_descent(X: np.ndarray, y: np.ndarray, alpha: floa
 
     # Your code here: implement gradient descent
     for _ in range(iterations):
-        predictions = np.matmul(X, theta)
-        dL_dh0 = (predictions-y)/m 
-        dh0_d0 = X
-        dL_d0 = np.matmul(dh0_d0.T,dL_dh0)
-        theta = theta - alpha* dL_d0
+        y_pred = X@theta # shape mx1
+        error = mean_squared_error(y_pred,y)/m
+        theta = theta - alpha*X.T@error
+
     return theta.flatten()
