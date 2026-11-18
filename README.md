@@ -2,7 +2,7 @@
 
 My machine learning practice from [Deep-ML](https://www.deep-ml.com). Every solution here was written by hand.
 
-**35** solved · 35 problems · 0 labs · 0 math
+**36** solved · 36 problems · 0 labs · 0 math
 
 ![Coverage](./coverage.svg)
 
@@ -32,6 +32,7 @@ My machine learning practice from [Deep-ML](https://www.deep-ml.com). Every solu
 | [Single Neuron](https://www.deep-ml.com/problems/24) | easy | 2026-10-15 | [solution](problems/0024-single-neuron) |
 | [Sinusoidal Positional Encoding](https://www.deep-ml.com/problems/906) | easy | 2026-10-27 | [solution](problems/0906-sinusoidal-positional-encoding) |
 | [Softmax Activation Function Implementation ](https://www.deep-ml.com/problems/23) | easy | 2026-10-14 | [solution](problems/0023-softmax-activation-function-implementation) |
+| [Vector Norms (L1/L2/L-inf) and the Frobenius Norm](https://www.deep-ml.com/problems/328) | easy | 2026-11-18 | [solution](problems/0328-vector-norms-l1-l2-l-inf-and-the-frobenius-norm) |
 | [Adam Optimizer](https://www.deep-ml.com/problems/87) | medium | 2026-10-23 | [solution](problems/0087-adam-optimizer) |
 | [Build Scaled Dot-Product Attention](https://www.deep-ml.com/problems/490) | medium | 2026-10-24 | [solution](problems/0490-build-scaled-dot-product-attention) |
 | [Calculate AUC (Area Under ROC Curve)](https://www.deep-ml.com/problems/277) | medium | 2026-11-14 | [solution](problems/0277-calculate-auc-area-under-roc-curve) |
